@@ -5,8 +5,8 @@ encontrado="0"
 nombre =""
 resp =""
 
-while resp!="N":
-    vbuscar = int(raw_input("ingrese empleado a localizar"))
+while resp != "N":
+    vbuscar = int(input("ingrese empleado a localizar"))
     for i in empleados:
         if i == vbuscar:
             encontrado="1"
@@ -18,6 +18,6 @@ while resp!="N":
          print ("El empleado es:"+nombre)
     else:
          print("No se encontro el empleado")
-    resp = raw_input("Desea continuar <s/n>:").upper()
+    resp = input("Desea continuar <s/n>:").upper()
     os.system('cls')
 print("thanks you")

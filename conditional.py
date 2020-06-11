@@ -11,4 +11,4 @@ elif tser>=4 and tser<=5:
     bon = sue * 0.03
 else:
     bon = sue * 0.04
-print("La bonificacion de: "+ nom +" es:"+ bon)
+print("La bonificacion de: "+ nom +" es:"+ str(bon))

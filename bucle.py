@@ -18,6 +18,6 @@ while resp != "N":
          print ("El empleado es:"+nombre)
     else:
          print("No se encontro el empleado")
-    resp = input("Desea continuar <s/n>:").upper()
+    resp = input("Desea continuar <y/n>:").upper()
     os.system('cls')
 print("thanks you")
